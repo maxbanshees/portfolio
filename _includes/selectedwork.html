@@ -1,8 +1,8 @@
 <div class ="image-gallery">
     {% for project in site.data.selectedwork %}
         <div class="box">
-            <a href="{{ project.address }}">
-            <img src="{{ project.thumb }}" alt="{{ project.name }}"  class="img-gallery" /></a>
+            <a href="{{ site.baseurl }}{{ project.address }}">
+            <img src="{{ site.baseurl }}{{ project.thumb }}" alt="{{ project.name }}"  class="img-gallery" /></a>
         </div>
     {% endfor %}
   </div>

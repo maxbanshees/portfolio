@@ -1,6 +1,9 @@
+---
+---
+
 @font-face {
   font-family: 'Montserrat';
-  src: url(/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+  src: url({{ site.baseurl }}/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
 }
 
 :root {

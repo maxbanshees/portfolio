@@ -1,5 +1,5 @@
 <div class ="image-gallery">
-    {% for project in site.data.selectedwork %} <!-- Displays selected works only -->
+    {% for project in site.data.selectedwork %}
         <div class="box">
             <a href="{{ project.address }}">
             <img src="{{ project.thumb }}" alt="{{ project.name }}"  class="img-gallery" /></a>

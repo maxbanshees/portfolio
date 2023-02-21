@@ -10,7 +10,13 @@ This site runs on Jekyll, an opensource static site generating platform.
 
 [Mike Dane's Jekyll tutorial series](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=1) has more in depth information on Jekyll, as well as hosting through GitHub Pages.
 
-[GitHub Desktop](https://desktop.github.com/) can be used to navigate around some issues with uploading to GitHub through the terminal.
+The [GitHub Desktop](https://desktop.github.com/) app can be used to navigate around some issues with uploading to GitHub through the terminal.
+
+Two lines in the _config.yml file may also have to be changed:
+```
+baseurl: /PROJECT
+url: http://USERNAME.github.io
+``` 
 
 The [Neocities Command Line Interface](https://neocities.org/cli) can be used if hosting on Neocities.
 

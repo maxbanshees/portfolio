@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="icon" type="image" href="/styling/favicon.png">
+    <link href="/styling/style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="/styling/menutoggle.js"></script>
+  </head>
+  <body>
+    {% include header.html %}
+  <div id="gallery">
+    <div class="galleryheader">{{ page.title }}</div>
+  {{ content }}
+    </div>
+  </body>
+</html>

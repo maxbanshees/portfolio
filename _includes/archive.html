@@ -1,0 +1,9 @@
+<div class ="image-gallery">
+  {% for post in site.posts %}
+      <div class="box">
+          <a class="post" href="{{ post.url }}">
+              <img src="{{ post.thumbnail }}" alt="{{ post.title }}"  class="img-gallery" />
+          </a>
+      </div>
+  {% endfor %}
+</div>

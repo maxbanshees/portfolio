@@ -1,0 +1,5 @@
+- name: "Sketchbook"
+  address: "https://maxbanshees.com"
+
+- name: "About"
+  address: "/about"

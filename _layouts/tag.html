@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{{page.tag}}</title>
+    <link rel="icon" type="image" href="/styling/logo-beige-drawn-thick-blackmatte-small.png">
+    <link href="/styling/style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="/styling/menutoggle.js"></script>
+  </head>
+  <body>
+    {% include header.html %}
+  <div id="gallery">
+    <div class="galleryheader">#{{page.tag}}</div>
+    <div class ="image-gallery">
+      {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+      <div class="box">
+        <a class="post" href="{{ post.url }}">
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }}"  class="img-gallery" />
+        </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    </div>
+  </body>
+</html>

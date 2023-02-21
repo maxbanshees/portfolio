@@ -1,0 +1,23 @@
+- name: "Bad Twyrine"
+  address: "/page/badtwyrine"
+  thumb: "/thumbs/badtwyrine.jpg"
+
+- name: "Triple Portrait"
+  address: "/page/tripleportrait"
+  thumb: "/thumbs/tripleportrait.jpg"
+
+- name: "Death of Farhad Webpage"
+  address: "/page/farhad"
+  thumb: "/thumbs/farhad.jpg"
+
+- name: "Marble Nest Thumbnail"
+  address: "/page/marblenest"
+  thumb: "/thumbs/marblenest3.jpg"
+
+- name: "Cast Shadow"
+  address: "/page/castshadow"
+  thumb: "/thumbs/castshadow.jpg"
+
+- name: "Folie à Deux"
+  address: "/page/folieadeux"
+  thumb: "/thumbs/folieadeux.jpg"

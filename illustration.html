@@ -1,0 +1,21 @@
+---
+layout: gallery
+title: Illustration
+---
+
+{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y %b'"  %}
+{% for yearMonth in postsByYearMonth %}
+  
+<div class="bymonth">    
+<a>{{ yearMonth.name }}</a>
+</div>
+  <div class ="image-gallery">
+      {% for post in yearMonth.items %}
+      <div class="box">
+        <a class="post" href="{{ post.url }}">
+            <img src="{{ post.thumbnail }}" alt="{{ post.title }}"  class="img-gallery" />
+        </a>
+    </div>
+      {% endfor %}
+    </div>
+{% endfor %}

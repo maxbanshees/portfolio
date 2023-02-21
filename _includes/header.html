@@ -1,0 +1,25 @@
+
+  <div id="logo"><a href="/"><img src="/styling/temp-svg.svg"></a></div>
+
+<div id="mobilehide">
+  <div id="menu">
+    <div class="menutext">
+      {% for link in site.data.headerlinks %}
+          <a href="{{ link.address }}">{{ link.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <div id="menubutton">
+    <div id="seemenu" onclick="openMenu()">Menu</div>
+    <div id="hidemenu" onclick="closeMenu()">Close</div>
+  </div>
+  </div>
+  <div id="desktophide">
+    <div id="bar">
+      {% for link in site.data.headerlinks %}
+            <a href="{{ link.address }}">{{ link.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  
+  <div id="fixedheader"></div>

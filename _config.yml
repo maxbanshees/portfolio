@@ -22,8 +22,8 @@ title: banshees.net
 email: hello@banshees.net
 description: >- # this means to ignore newlines until "baseurl:"
   Max Banshees is an illustrator from Boston.
-baseurl: "https://banshees.net" # the subpath of your site, e.g. /blog
-url: "https://banshees.net" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "portfolio" # the subpath of your site, e.g. /blog
+url: "portfolio" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:

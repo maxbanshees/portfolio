@@ -1,15 +1,12 @@
----
----
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url({{ site.baseurl }}/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
-}
-
 :root {
   --darkgray: #716E65;
   --medgray: #AEA99C;
   --lightgray: #EFECE3;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/portfolio/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
 }
 
 body {

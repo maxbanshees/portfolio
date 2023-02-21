@@ -24,13 +24,6 @@
     <div class="header2">{{ page.title }}</div>
     <p><i>Posted on {{ page.date | date: "%-d %B %Y" }}</i></p>
   {{ content }}
-  <hr>
-  <p class="tag">
-    Tagged as: 
-    {% for tag in page.tags %}
-    <a class="post" href="/tag/{{tag}}">#{{tag}}</a>{% unless forloop.last %}, {% endunless %}
-    {% endfor %}
-  </p>
     </div>
   </body>
 </html>

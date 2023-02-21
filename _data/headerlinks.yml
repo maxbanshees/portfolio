@@ -2,4 +2,4 @@
   address: "https://maxbanshees.com"
 
 - name: "About"
-  address: "/about"
+  address: "{{ site.baseurl }}/about"

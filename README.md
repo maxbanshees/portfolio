@@ -12,7 +12,16 @@ This site runs on Jekyll, an opensource static site generating platform.
 
 The [GitHub Desktop](https://desktop.github.com/) app can be used to navigate around some issues with uploading to GitHub through the terminal.
 
-Two lines in the _config.yml file may also have to be changed:
+Parts of the Gemfile and _config.yml will also have to be changed.
+
+First, go to the Gemfile, and follow the instructions there for using GitHub Pages. This involves:
+
+- Removing the "jekyll" gem line
+- Uncommenting the "github-pages" gem line
+- using "bundle install" in the terminal while in the website folder
+
+Then, go to the _config.yml and change the values of these two lines with the name of your account and project:
+
 ```
 baseurl: /PROJECT
 url: http://USERNAME.github.io

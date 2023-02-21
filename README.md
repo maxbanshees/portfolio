@@ -8,9 +8,11 @@ Selected works portfolio made with [Jekyll](https://jekyllrb.com/), and hosted o
 
 This site runs on Jekyll, an opensource static site generating platform.
 
-You can follow [Mike Dane's Jekyll tutorial series](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=1) for more in depth information on Jekyll, as well as hosting through GitHub Pages.
+[Mike Dane's Jekyll tutorial series](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&index=1) has more in depth information on Jekyll, as well as hosting through GitHub Pages.
 
-You can use the [Neocities Command Line Interface](https://neocities.org/cli) if hosting on Neocities.
+[GitHub Desktop](https://desktop.github.com/) can be used to navigate around some issues with uploading to GitHub through the terminal.
+
+The [Neocities Command Line Interface](https://neocities.org/cli) can be used if hosting on Neocities.
 
 ## Setup
 
